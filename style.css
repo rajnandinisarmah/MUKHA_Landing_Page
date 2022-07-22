@@ -1,0 +1,275 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee4e1;
+}
+
+.home {
+  height: 100vh;
+  background-color: #e0cfcc;
+  padding: 30px;
+}
+
+nav {
+  width: 100%;
+  padding: 0 20px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #5a4441;
+  margin-left: 3rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #b77167;
+}
+
+.logo {
+  text-decoration: none;
+  color: #5a4441;
+  font-size: 37px;
+  font-weight: 500;
+  font-family: "Cormorant Unicase", sans-serif;
+}
+
+.description {
+  padding: 7rem 9rem;
+  width: 700px;
+  position: absolute;
+  z-index: 999;
+}
+
+.description h1 {
+  font-size: 60px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  color: #5a4441;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.description p {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: #444444;
+  width: 35rem;
+  left: 35%;
+}
+
+.border1 {
+  width: 33rem;
+  height: 20rem;
+  border: 2px solid #5a4441;
+  position: relative;
+  top: 6rem;
+  left: 47rem;
+}
+
+.image1 img {
+  width: 33rem;
+  height: auto;
+  position: absolute;
+  bottom: 40px;
+  top: 2rem;
+  left: -2rem;
+}
+
+.social-container {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.social-icons {
+  list-style: none;
+}
+
+.social-icons li i {
+  margin: 0 15px;
+  display: inline;
+}
+
+.social-icons li i {
+  color: #5a4441;
+  font-size: 22px;
+}
+
+.about {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.border {
+  width: 33rem;
+  height: 23rem;
+  border: 2px solid #5a4441;
+  position: relative;
+}
+
+.image img {
+  width: 35rem;
+  height: auto;
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+}
+
+.text {
+  padding-top: 150px;
+  padding-right: 50px;
+}
+
+.title {
+  font-size: 50px;
+  font-family: "Bitter";
+  font-weight: 100;
+  color: #5a4441;
+  letter-spacing: 3px;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.text p {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: #444444;
+  text-align: center;
+}
+
+.products {
+  height: 100vh;
+  padding: 4rem 3rem;
+  background-color: #e0cfcc;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  max-width: 1000px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.product img {
+  height: 20rem;
+  width: 100%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.product p {
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: #444444;
+  text-align: center;
+}
+
+.product h3 {
+  font-size: 20px;
+  font-family: "Bitter";
+  font-weight: 700;
+  color: #5a4441;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.gallery {
+  height: 100vh;
+  padding: 6rem;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-auto-rows: 270px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.title h1 {
+  margin-top: 50px;
+}
+
+.box {
+  /* background-image: url(./img/0.jpg); */
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.box:nth-child(2) {
+  background-image: url(img/1.png);
+}
+
+.box:nth-child(3) {
+  background-image: url(img/2.jpg);
+}
+
+.box:nth-child(4) {
+  background-image: url(img/3.jpg);
+}
+
+.box:nth-child(5) {
+  background-image: url(img/4.jpg);
+}
+
+.box:nth-child(6) {
+  background-image: url(img/5.jpg);
+}
+
+footer {
+  padding: 50px;
+  background: #dacbc8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h3 {
+  font-size: 21px;
+  font-family: "Bitter";
+  font-weight: 700;
+  color: #5a4441;
+}
+
+.contact p {
+  font-size: 15px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: #242424;
+}
